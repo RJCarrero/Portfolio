@@ -159,7 +159,17 @@ export default function ResumePage() {
                     <span className="font-medium text-white">Location:</span> Clarksville, TN
                   </p>
                   <p className="text-gray-200 mb-2">
-                    <span className="font-medium text-white">LinkedIn:</span> linkedin.com/in/rafael-carrero-9749a0348
+
+
+                    <div>
+                    <span className="font-medium text-white">LinkedIn:</span> <a
+                     
+                href="https://www.linkedin.com/in/rafael-carrero-9749a0348"
+                target="_blank"
+                rel="noopener noreferrer">Linkedin.com/in/rafael-carrero-9749a0348
+                </a>
+{/* The anchor tag wasn't there before i added it. It showed line 165 </span>Linkedin.com/in/rafael-carrero-9749a0348 */}
+                     </div>
                   </p>
                 </div>
               </div>
