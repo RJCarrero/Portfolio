@@ -1,0 +1,26 @@
+import type React from "react"
+import type { Metadata } from "next"
+import { GeistSans } from "geist/font/sans"
+import { GeistMono } from "geist/font/mono"
+import { SITE_CONFIG } from "@/lib/constants"
+import "./globals.css"
+
+export const metadata: Metadata = {
+  title: SITE_CONFIG.title,
+  description: SITE_CONFIG.description,
+  generator: "v0.app",
+  authors: [{ name: SITE_CONFIG.author.name }],
+  keywords: ["Network Engineering", "IT Support", "Cybersecurity", "CompTIA Network+", "Cisco"],
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="en">
+      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>{children}</body>
+    </html>
+  )
+}
