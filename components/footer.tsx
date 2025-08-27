@@ -7,10 +7,12 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-6">
           <div>
             <h3 className="text-white font-bold mb-4">Rafael J Carrero</h3>
+          <div className="flex flex-col gap-2">
             <p className="text-gray-400 text-sm">Network IT Professional</p>
             <p className="text-gray-400 text-sm">Student, IT Technician, and Network Enthusiast</p>
           </div>
-
+        </div>
+        {/* line 10 <div> corresponse to line 14 </div> */}
           <div>
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
             <div className="flex flex-col gap-2">
@@ -23,9 +25,7 @@ export function Footer() {
               <Link href="/resume" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
                 Resume
               </Link>
-              <Link href="/contact" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
-                Contact
-              </Link>
+              
             </div>
           </div>
 
@@ -33,7 +33,7 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-4">Connect</h3>
             <div className="flex flex-col gap-2">
               <Link href="/contact" className="text-gray-400 hover:text-orange-400 transition-colors text-sm">
-                rafaeljcarrero@outlook.com
+                Contact
               </Link>
               <a
                 href="https://www.linkedin.com/in/rafael-carrero-9749a0348"
