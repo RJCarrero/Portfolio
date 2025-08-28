@@ -58,6 +58,18 @@ export function Header() {
               >
               <Download size= {20} />
               </Link>
+              
+              <Link
+  href="/ITresume.pdf"
+  download
+  className="relative text-white hover:text-orange-400 transition-colors duration-300 p-2 hover:bg-orange-400/10 rounded-full group"
+  aria-label="Download Resume PDF"
+>
+  <Download size={20} />
+  <span className="absolute left-1/2 -translate-x-1/2 top-full mt-2 px-2 py-1 rounded bg-black text-orange-400 text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10">
+    Resume.pdf
+  </span>
+</Link>
             {/* pdf button for resume */}
             </div>
           </nav>
@@ -138,6 +150,19 @@ export function Header() {
                     >
                 <Download size={20} />
                 </Link>
+
+                <Link
+  href="/ITresume.pdf"
+  download
+  onClick={closeMenu}
+  className="relative text-white hover:text-orange-400 transition-colors duration-300 p-2 hover:bg-orange-400/10 rounded-full group"
+  aria-label="Download Resume PDF"
+>
+  <Download size={20} />
+  <span className="absolute left-1/2 -translate-x-1/2 top-full mt-2 px-2 py-1 rounded bg-black text-orange-400 text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10">
+    Resume.pdf
+  </span>
+</Link>
               {/* mobile pdf button */}
               </div>
             </div>
