@@ -4,7 +4,7 @@ import Link from "next/link"
 import { cn } from "@/lib/utils"
 import { useNavigation } from "@/hooks/use-navigation"
 import { SITE_CONFIG } from "@/lib/constants"
-import { Mail, Linkedin } from "lucide-react"
+import { Mail, Linkedin, Download } from "lucide-react"
 
 export function Header() {
   const { isMenuOpen, toggleMenu, closeMenu, isActiveRoute, navItems } = useNavigation()
@@ -49,6 +49,16 @@ export function Header() {
               >
                 <Linkedin size={20} />
               </Link>
+            {/* pdf button for resume */}
+              <Link
+                href="./Itresume.pdf"
+                download
+                className="text-white hover:text-orange-400 transition-colors duration-300 p-2 hover:bg-orange-400/10 rounded-full"
+                aria-label="Download Resume PDF"
+              >
+              <Download size= {20} />
+              </Link>
+            {/* pdf button for resume */}
             </div>
           </nav>
 
@@ -118,6 +128,17 @@ export function Header() {
                 >
                   <Linkedin size={20} />
                 </Link>
+              {/* mobile pdf button */}
+                <Link
+                  href="/ITresume.pdf"
+                  download
+                  onClick={closeMenu}
+                  className="text-white hover:text-orange-400 transition-colors duration-300 p-2 hover:bg-orange-400/10 rounded-full"
+                  aria-label="Download Resume PDF"
+                    >
+                <Download size={20} />
+                </Link>
+              {/* mobile pdf button */}
               </div>
             </div>
           </nav>

@@ -1,6 +1,6 @@
 import { PageLayout } from "@/components/page-layout"
 import { NavigationButton } from "@/components/navigation-button"
-import { text } from "stream/consumers"
+import { DownloadButton } from "@/components/DownloadButton"
 
 interface ExperienceItemProps {
   title: string
@@ -140,11 +140,19 @@ export default function ResumePage() {
         <div className="container mx-auto px-6 py-16">
           <div className="max-w-4xl mx-auto">
             {/* Header */}
-            <div className="text-center mb-16">
+            {/* <div className="text-center mb-16">
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 text-balance">Resume</h1>
               <div className="w-24 h-1 bg-orange-400 mx-auto rounded-full mb-6"></div>
               <p className="text-gray-300 text-lg">Network IT Professional & Student</p>
-            </div>
+            </div> */}
+            <div className="mb-16">
+  <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:justify-center md:items-center md:gap-6">
+    <h1 className="text-5xl md:text-6xl font-bold text-white text-balance">Resume</h1>
+    <DownloadButton file="/ITresume.pdf" label="Download .pdf" className="mt-2 md:mt-0" />
+  </div>
+  <div className="w-24 h-1 bg-orange-400 mx-auto rounded-full mb-6 mt-6"></div>
+  <p className="text-gray-300 text-lg text-center">Network IT Professional & Student</p>
+</div>
 
             {/* Contact Information */}
             <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 border border-orange-400/20 mb-12">
