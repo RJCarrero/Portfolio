@@ -1,5 +1,6 @@
 import { PageLayout } from "@/components/page-layout"
 import { NavigationButton } from "@/components/navigation-button"
+import { text } from "stream/consumers"
 
 interface ExperienceItemProps {
   title: string
@@ -159,7 +160,8 @@ export default function ResumePage() {
                     <span className="font-medium text-white">Location:</span> Clarksville, TN
                   </p>
                   <p className="text-gray-200 mb-2">
-                    <span className="font-medium text-white">LinkedIn:</span> <a 
+                    <span className="font-medium text-white">LinkedIn:</span> <a className="text-gray-200 hover:text-orange-400 transition-colors"
+                    
                 href="https://www.linkedin.com/in/rafael-carrero-9749a0348"
                 target="_blank"
                 rel="noopener noreferrer"
