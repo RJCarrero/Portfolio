@@ -50,15 +50,7 @@ export function Header() {
                 <Linkedin size={20} />
               </Link>
             {/* pdf button for resume */}
-              <Link
-                href="./Itresume.pdf"
-                download
-                className="text-white hover:text-orange-400 transition-colors duration-300 p-2 hover:bg-orange-400/10 rounded-full"
-                aria-label="Download Resume PDF"
-              >
-              <Download size= {20} />
-              </Link>
-              
+             
               <Link
   href="/ITresume.pdf"
   download
@@ -141,16 +133,7 @@ export function Header() {
                   <Linkedin size={20} />
                 </Link>
               {/* mobile pdf button */}
-                <Link
-                  href="/ITresume.pdf"
-                  download
-                  onClick={closeMenu}
-                  className="text-white hover:text-orange-400 transition-colors duration-300 p-2 hover:bg-orange-400/10 rounded-full"
-                  aria-label="Download Resume PDF"
-                    >
-                <Download size={20} />
-                </Link>
-
+                
                 <Link
   href="/ITresume.pdf"
   download
