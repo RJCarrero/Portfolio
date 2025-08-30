@@ -221,7 +221,7 @@ export default function ContactPage() {
                     </a>
 
                     <a
-                      href="https://github.com/rafaelcarrero"
+                      href="https://github.com/RJCarrero"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center p-4 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors duration-300"
