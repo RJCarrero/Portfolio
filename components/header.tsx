@@ -52,7 +52,7 @@ export function Header() {
             {/* pdf button for resume */}
              
               <Link
-  href="/ITresume.pdf"
+  href="./Network_IT.pdf"
   download
   className="relative text-white hover:text-orange-400 transition-colors duration-300 p-2 hover:bg-orange-400/10 rounded-full group"
   aria-label="Download Resume PDF"
@@ -135,7 +135,7 @@ export function Header() {
               {/* mobile pdf button */}
                 
                 <Link
-  href="/ITresume.pdf"
+  href="./Network_IT.pdf"
   download
   onClick={closeMenu}
   className="relative text-white hover:text-orange-400 transition-colors duration-300 p-2 hover:bg-orange-400/10 rounded-full group"

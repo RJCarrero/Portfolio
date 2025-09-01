@@ -125,7 +125,7 @@ export default function ResumePage() {
       degree: "Bachelor of Science in Network Engineering and Security",
       institution: "Western Governor's University",
       location: "Clarksville, TN",
-      duration: "Oct '25 - Expected 2028",
+      duration: "Sep '25 - Expected 2028",
       details: [
         "Currently in the enrollment process - 36 month degree program",
         "Included Certifications: CCNA, CCST, Cisco DevNet Associate, CompTIA A+, CompTIA Project+, CompTIA Cloud+, ITIL Foundation, and LPI Linux Essentials",
@@ -148,7 +148,7 @@ export default function ResumePage() {
             <div className="mb-16">
   <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:justify-center md:items-center md:gap-6">
     <h1 className="text-5xl md:text-6xl font-bold text-white text-balance">Resume</h1>
-    <DownloadButton file="/ITresume.pdf" label="Download .pdf" className="mt-2 md:mt-0" />
+    <DownloadButton file="/Network_IT.pdf" label="Download .pdf" className="mt-2 md:mt-0" />
   </div>
   <div className="w-24 h-1 bg-orange-400 mx-auto rounded-full mb-6 mt-6"></div>
   <p className="text-gray-300 text-lg text-center">Network IT Professional & Student</p>
@@ -185,7 +185,7 @@ export default function ResumePage() {
             <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 border border-orange-400/20 mb-12">
               <h2 className="text-2xl font-bold text-orange-400 mb-6">Professional Summary</h2>
               <p className="text-gray-200 leading-relaxed">
-                Customer-focused and technically driven aspiring IT Support Technician transitioning from four years of
+                Customer-focused and technically driven aspiring Network Technician transitioning from four years of
                 fast-paced management in the food service industry. Experienced in troubleshooting POS systems, managing
                 teams, and resolving issues quickly under pressure—skills that directly translate to IT support roles.
                 CompTIA Network+ certified, with a growing foundation in networking, Linux systems, and cloud computing,
