@@ -70,7 +70,7 @@ export default function ResumePage() {
       title: "Project Manager",
       company: "Banyan Labs",
       location: "Clarksville, TN",
-      duration: "Aug '25 - Currently Employed",
+      duration: "Aug '25 - Present",
       responsibilities: [
         "Clearly establish the project's objectives, deliverables, and success criteria with stakeholders",
         "Break down work into tasks, assign responsibilities, and create timelines using Agile, Waterfall, or hybrid methods",
