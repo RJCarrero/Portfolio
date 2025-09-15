@@ -127,7 +127,7 @@ export default function ResumePage() {
       location: "Clarksville, TN",
       duration: "Sep '25 - Expected 2028",
       details: [
-        "Currently in the enrollment process - 36 month degree program",
+        "Currently in the enrollment process - 48 month degree program",
         "Included Certifications: CCNA, CCST, Cisco DevNet Associate, CompTIA A+, CompTIA Project+, CompTIA Cloud+, ITIL Foundation, and LPI Linux Essentials",
         "Focus on Network Engineering and Cybersecurity",
       ],
