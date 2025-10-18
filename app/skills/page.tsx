@@ -57,7 +57,7 @@ export default function SkillsPage() {
 
   const securitySkills = [
     { name: "Network Security Protocols", level: 50, category: "security" },
-    { name: "Firewall Configuration", level: 20, category: "security" },
+    { name: "Firewall Configuration", level: 40, category: "security" },
     { name: "Vulnerability Assessment", level: 15, category: "security" },
     { name: "Security Policy Implementation", level: 10, category: "security" },
     { name: "Incident Response", level: 20, category: "security" },
